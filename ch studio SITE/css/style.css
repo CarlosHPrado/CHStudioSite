@@ -1,0 +1,145 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: montserrat;
+	src: url(montserrat-black-webfont.woff);
+}
+@font-face{
+	font-family: montserrat-light;
+	src: url(montserrat-extralight-webfont.woff);
+}
+
+.cardspace{
+	margin-left: 20PX;
+	margin-right: 20PX;
+}
+
+.textofone {
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	font-weight: 75%;
+	font-family: 'montserrat';
+}
+
+h2{
+	letter-spacing: 5px;
+
+}
+
+.bg-black{
+	background-color: #000;
+}
+h5{
+	font-family: 'montserrat';
+	text-align: center;
+
+}
+
+
+hr {
+	margin: auto;
+	width: 50%;
+	border: 1.5px solid #fff;
+}
+
+.nav-item{
+    font-size:20px;
+
+
+}
+
+.btn{
+	position: center;
+}
+
+.sobrenos{
+	font-size: 1.5em;
+}
+
+.texto-home h1{
+	font-size: 55px;
+	font-family: "montserrat";
+	color: #ffffff;
+	letter-spacing: .1em;
+	text-shadow: 8px;
+	text-overflow: 5s;
+	text-transform: bold;
+	font-weight: 550; 
+	line-height: 1.2;
+	text-align: right;
+	top: 250px;
+	z-index: 91;
+}
+
+.container h1 {
+	font-size: 40px;  
+	font-family: "montserrat";  
+	font-weight: 500;
+	letter-spacing: .1em; 
+	line-height: 1.2;
+	text-align: center;
+	left: 350;
+	}
+
+.bgimagem{	
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+	background-image: url("../img/home.jpg");
+	height: 100%; 
+	width: 100%;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%: 
+    
+   
+}
+.bg-w{
+	background-color: #fff;
+}
+
+p{
+	text-align: justify;
+	
+}
+
+.cnt{
+	margin: 60px;
+	
+}
+.navbar{
+	color: black;
+	
+}
+.home-titlel{
+	text-align: right;
+}
+
+.demo {
+	font-weight: lighter;
+	word-spacing: 20px;
+}
+.contato-top{
+	margin-top: 40px
+}
+.port{
+	border-image: 1px;
+	border-color: #fff;
+}
+.text-end{
+	text-align: center;
+}
+.form{
+	margin-left: 20px;
+}
